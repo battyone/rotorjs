@@ -16,8 +16,8 @@
   [calvinmetcalf/rollup-plugin-node-globals#23](https://github.com/calvinmetcalf/rollup-plugin-node-globals/issues/23).
   Выражения `__dirname` и `__filename` транспилируются неверно.
 
-* Не происходит сборка браузерных тестов, поскольку в `rollup-plugin-node-globals` присутствует проблема:
-  [calvinmetcalf/rollup-plugin-node-globals#20](https://github.com/calvinmetcalf/rollup-plugin-node-globals/issues/20).
+* Не происходит сборка браузерных тестов, поскольку в `rollup-plugin-node-polyfills` присутствует проблема:
+  [calvinmetcalf/rollup-plugin-node-globals#20](https://github.com/ionic-team/rollup-plugin-node-polyfills/issues/1<M-F5>).
   Проблема проявляется при транспиляции ESM-файлов.
 
 * Не происходит сборка браузерных тестов, поскольку в `node-glob` присутствует проблема:

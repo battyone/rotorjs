@@ -1,7 +1,7 @@
 const rollup = require('rollup');
 const json = require('rollup-plugin-json');
 const bultins = require('rollup-plugin-node-builtins');
-const globals = require('rollup-plugin-node-globals');
+const polyfills = require('rollup-plugin-node-polyfills');
 const resolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
 const path = require('path');
@@ -28,7 +28,7 @@ const inputOptions = {
       sourceMap: true
     }),
 
-    globals(),
+    polyfills(),
     bultins()
   ]
 };
